@@ -1,0 +1,25 @@
+{
+  "name": "convert-quantities",
+  "version": "0.0.1",
+  "description": "Library for defining measurement systems, converting quantities between units, and evaluating expressions in terms of arbitrary units",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kendru/convert-quantities.git"
+  },
+  "keywords": [
+    "quantities",
+    "units",
+    "conversion",
+    "measurements"
+  ],
+  "author": "Andrew Meredith <ameredith@quantummetric.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kendru/convert-quantities/issues"
+  },
+  "homepage": "https://github.com/kendru/convert-quantities#readme"
+}
