@@ -4,7 +4,8 @@
   "description": "Library for defining measurement systems, converting quantities between units, and evaluating expressions in terms of arbitrary units",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test/**/*.spec.js"
+    "test": "mocha test/**/*.spec.js",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
